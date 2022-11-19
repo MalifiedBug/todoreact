@@ -9,6 +9,7 @@ function App() {
       <h4>
         Used Formik and Yup for forms and validation
       </h4>
+      <h5>Used MUI popover to edit todo.</h5>
     </div>
   );
 }
