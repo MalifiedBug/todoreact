@@ -30,16 +30,13 @@ const MyTextInput = ({ label, ...props }) => {
 // And now we can use these
 export default function Todo() {
   const [tasks, setTasks] = useState([]);
-  const [vada, setVada] = useState("");
   const [pav, setPav] = useState("");
 
   function Delete(index) {
     setTasks(tasks.filter((task) => task !== tasks[index]));
   }
 
-  function Edit() {
-    return <div></div>;
-  }
+
 
   return (
     <div className="maintodo">
