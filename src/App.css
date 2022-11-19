@@ -1,3 +1,11 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/6b/3f/7e/6b3f7e7c8a8b06fbd1ae32503037f3ca.jpg');
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.tasksclass{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+}
+
+.todomain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintodo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolist{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.listele{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px;
+  
+}
+
+.inputform{
+  width: 20rem;
+}
+
+.editbutton{
+  display: flex;
+
 }
